@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    margin: 0;
+}
+/***Left Side Styling***/
+.left-container {
+    background-image: url('/images/norse-rockface.jpeg');
+    background-position: left;
+    width: 35%;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: norse-bold;
+    src: url('/fonts/Norse-Bold.otf');
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    background-color: black;
+    opacity: 0.6;
+    margin-top: 30%;
+}
+
+.logo-img {
+    height: 80%;
+    width: auto;
+}
+
+.logo-text {
+    color: white;
+    font-family: 'norse-bold', sans-serif;
+    font-size: 5rem;
+    margin-top: 20px;
+}
+
+.left-footer {
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    width: 35%;
+}
+
+.left-footer a {
+    color: white;
+}
