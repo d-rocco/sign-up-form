@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
 body {
     display: flex;
     margin: 0;
@@ -49,4 +51,17 @@ body {
 
 .left-footer a {
     color: white;
+}
+/***Right Side Styling***/
+
+.right-container {
+    width: 65%;
+}
+
+.header {
+    font-size: 1.5rem;
+    width: min(675px, 80%);
+    margin: 100px 0 65px 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
