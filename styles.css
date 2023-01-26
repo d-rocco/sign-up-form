@@ -56,12 +56,93 @@ body {
 
 .right-container {
     width: 65%;
+    background-color: #E4E4E4;
 }
 
 .header {
     font-size: 1.5rem;
     width: min(675px, 80%);
-    margin: 100px 0 65px 40px;
+    margin: 100px 0 50px 40px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+}
+
+.form-container {
+    background-color: whitesmoke;
+    box-shadow: 0 2px 4px grey;
+}
+
+.form-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 15px 0 25px 40px;
+}
+
+.form-row {
+    display: flex; 
+    flex-wrap: wrap
+}
+
+.label-input-combo {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 20px 40px;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+}
+
+input {
+    width: 220px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    border: 0.5px solid #E4E4E4;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 2px 2px 4px grey;
+    border: 0.1px solid blue;
+    border-radius: 5px;
+}
+
+input:invalid {
+    border: 0.1px solid red;
+    border-radius: 5px;
+}
+
+.right-footer {
+    margin: 30px 0 10px 40px;
+}
+
+.create-btn {
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 50px;
+    margin-bottom: 30px;
+    background-color: #1F2422;
+    color: #E4E4E4;
+    box-shadow: 0 2px 8px grey; 
+}
+
+.create-btn:active {
+    box-shadow: none;
+}
+
+.login-text {
+    font-family: 'Roboto', sans-serif;
+}
+
+span {
+    color: #1F2422;
+    font-weight: bold;
 }

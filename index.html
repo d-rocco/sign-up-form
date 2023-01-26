@@ -17,8 +17,47 @@
     </div>
     <div class="right-container">
         <p class="header">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up <em>now</em> to get started.<br><br>You <em>know</em> you want to.</p>
-        <div class="form-container"></div>
-        <div class="right-footer"></div>
+        <div class="form-container">
+            <div class="form-text">Let's do this!</div>
+            <form action="" method="post">
+                <div class="form-row">
+                    <div class="label-input-combo">
+                        <label for="first_name">First Name</label>
+                        <input type="text" id="first_name" name="first_name" maxlength="20">
+                    </div>
+                    <div class="label-input-combo">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" id="last_name" name="last_name" maxlength="20">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="label-input-combo">
+                        <label for="email_address">Email</label>
+                        <input type="email" id="email_address" name="email_address" maxlength="30">
+                    </div>
+                    <div class="label-input-combo">
+                        <label for="phone_number">Phone Number</label>
+                        <input type="tel" id="phone_number" name="phone_number"
+                        pattern="^(\([0-9]{3}\) |[0-9]{3}-)[0-9]{3}-[0-9]{4}$"
+                        maxlength="14">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="label-input-combo">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" maxlength="25">
+                    </div>
+                    <div class="label-input-combo">
+                        <label for="confirm_password">Confirm Password</label>
+                        <input type="password" id="confirm_password" name="confirm_password" maxlength="25">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="right-footer">
+            <button type="submit" class="create-btn">Create Account</button>
+            <div class="login-text">Already have an account? <span>Log in</span></div>
+        </div>
     </div>
 </body>
 </html>
